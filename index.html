@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary, Baby ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+</head>
+<body>
+
+    <!-- Flying hearts -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Main content -->
+    <div class="main-container">
+
+        <!-- Hero -->
+        <section class="hero">
+            <h1>Happy Anniversary</h1>
+            <p class="subtitle" id="heroNames"></p>
+            <div class="date-display" id="heroDate"></div>
+        </section>
+
+        <!-- Days together -->
+        <div class="days-counter">
+            <div class="number" id="daysNumber">...</div>
+            <div class="label">beautiful days together 💕</div>
+        </div>
+
+        <!-- Monthly Love Letter -->
+        <div class="section" id="monthlyLetterSection">
+            <h2 id="monthlyLetterTitle">💌 A Letter For You</h2>
+            <div class="love-letter" id="monthlyLetterContent"></div>
+        </div>
+
+        <!-- Our Journey Timeline -->
+        <div class="section">
+            <h2>Our Beautiful Journey</h2>
+            <div class="timeline" id="timelineContainer"></div>
+        </div>
+
+        <!-- Reasons I Love You -->
+        <div class="section">
+            <h2>Reasons I Love You</h2>
+            <p style="text-align:center;color:#888;margin-bottom:25px;">Updated this month 💕</p>
+            <div class="reasons-grid" id="reasonsContainer"></div>
+        </div>
+
+        <!-- Our Photos -->
+        <div class="section">
+            <h2>Our Favorite Moments</h2>
+            <p style="text-align:center;color:#888;margin-bottom:25px;">📸 Memories we've captured</p>
+            <div class="photo-grid" id="photosContainer"></div>
+        </div>
+
+        <!-- Our Song -->
+        <div class="section song-section">
+            <h2>The First Song I Sang for you.. 🎵</h2>
+            <p class="song-note">Press play and think of us...</p>
+            <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;border-radius:15px;">
+                <iframe id="songEmbed"
+                src=""
+                style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                title="Our Song">
+            </iframe>
+        </div>
+        <p style="margin-top:15px;color:#888;font-size:0.9em;">🎵 Our special song</p>
+    </div>
+
+    <!-- Forever -->
+    <div class="section" style="text-align:center;">
+        <h2>Forever &amp; Always</h2>
+        <p style="font-size:1.3em;color:#d6336c;line-height:2;" id="closingMessage"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
